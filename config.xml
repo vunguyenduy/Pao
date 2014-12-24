@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.Pao.fsoft" version="0.0.1" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Pao</name>
+    <description>
+        Tell us your opinion.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Tell us your opinion
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <preference name="Fullscreen" value="true" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+        <true/>
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+        <false/>
+    </gap:config-file>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+
+    <icon src="resources/icons/Icon.png" />
+</widget>
